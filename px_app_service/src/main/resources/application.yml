@@ -1,0 +1,21 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: px-app-service
+
+  cloud:
+    nacos:
+      # nacos 配置中心容器内用nacos
+      server-addr: 127.0.0.1:8848
+      username: nacos
+      password: nacos123456
+
+      discovery:
+        username: nacos
+        password: nacos123456
+
+      config:
+        username: nacos
+        password: nacos123456
